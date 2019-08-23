@@ -78,6 +78,9 @@
 						<div class="numbers-block_title">
 							5 лет
 						</div>
+						<div class="numbers-block_title__mobile">
+							5 лет
+						</div>
 						<div class="numbers-block_text">
 							На рынке изделий из гофрокартона
 						</div>
@@ -87,6 +90,9 @@
 						<div class="numbers-block_title">
 							до 5 000 000 м<sup>2</sup>
 						</div>
+						<div class="numbers-block_title__mobile">
+							до 5 <br> млн м<sup>2</sup>						
+						</div>
 						<div class="numbers-block_text">
 							Ежемесячный объем производства гофрокартона
 						</div>
@@ -94,6 +100,9 @@
 
 					<div class="numbers-block">
 						<div class="numbers-block_title">
+							4 000 м<sup>2</sup>
+						</div>
+						<div class="numbers-block_title__mobile">
 							4 000 м<sup>2</sup>
 						</div>
 						<div class="numbers-block_text">

@@ -442,6 +442,18 @@ button:focus {
   font-size: 17px;
 }
 
+.numbers-block_title__mobile {
+  display: none;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #f39003;
+}
+
+.numbers-block_title__mobile sup {
+  font-size: 17px;
+}
+
 .numbers-block_text {
   font-size: 16px;
   font-weight: 300;
@@ -604,6 +616,16 @@ button:focus {
 
   .header-contacts_phone {
     font-size: 18px;
+  }
+
+  .numbers-block_title {
+    display: none;
+  }
+  .numbers-block_title__mobile {
+    display: block;
+  }
+  .numbers-block_text {
+    font-size: 14px;
   }
 }
 
