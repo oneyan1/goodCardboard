@@ -54,9 +54,9 @@
 									</span>
 								</div>
 								<form action="mailer/smart.php" method="POST" class="form">
-									<input class="form-input"  type="tel" name="user_phone" placeholder="Введите номер телефона">
+									<input class="form-input"  type="tel" name="user_phone" placeholder="Введите номер телефона" required>
 									<button class="button button_big" type="submit">
-										Оставить заявку!
+										Оставить заявку! 	
 									</button>
 								</form>
 									<small class="form-small">*Минимальный заказ 500шт</small>
@@ -233,7 +233,7 @@
 							<div class="products-block_title">Гофрокороб 4-х клапанный
 </div>
 							<!-- /.products-block_title -->
-							<div class="product-block_buttons"><button class="button button-o products-block_button">Подробнее</button><button class="button">Получить расчет</button></div>
+							<div class="product-block_buttons"><button class="button button-o products-block_button btnModalActive">Подробнее</button><button class="button btnModalActive">Получить расчет</button></div>
 							<!-- /.product-block_buttons -->
 						</div>
 						<!-- /.proucts-block -->
@@ -245,7 +245,7 @@
 							<div class="products-block_title">Гофролоток
 </div>
 							<!-- /.products-block_title -->
-							<div class="product-block_buttons"><button class="button button-o products-block_button">Подробнее</button><button class="button">Получить расчет</button></div>
+							<div class="product-block_buttons"><button class="button button-o products-block_button btnModalActive">Подробнее</button><button class="button btnModalActive">Получить расчет</button></div>
 							<!-- /.product-block_buttons -->
 						</div>
 						<!-- /.proucts-block -->
@@ -261,7 +261,7 @@
 								Гофрокороб самосборный (сложная высечка)
 							</div>
 							<!-- /.products-block_title -->
-							<div class="product-block_buttons"><button class="button button-o products-block_button">Подробнее</button><button class="button">Получить расчет</button></div>
+							<div class="product-block_buttons"><button class="button button-o products-block_button btnModalActive">Подробнее</button><button class="button btnModalActive">Получить расчет</button></div>
 							<!-- /.product-block_buttons -->
 						</div>
 						<!-- /.proucts-block -->
@@ -274,7 +274,7 @@
 								Листовой гофрокартон
 							</div>
 							<!-- /.products-block_title -->
-							<div class="product-block_buttons"><button class="button button-o products-block_button">Подробнее</button><button class="button">Получить расчет</button></div>
+							<div class="product-block_buttons"><button class="button button-o products-block_button btnModalActive">Подробнее</button><button class="button btnModalActive">Получить расчет</button></div>
 							<!-- /.product-block_buttons -->
 						</div>
 						<!-- /.proucts-block -->
@@ -295,9 +295,9 @@
 				</h2>
 				<!-- /.offer-title -->
 				<div class="offer-form">
-						<form action="#">
+						<form class="form-section" action="#" >
 							<label class="offer-form__label" for="">Введите ваш номер телефона:</label>
-							<input class="form-input offer-form__input" type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+							<input class="form-input offer-form__input" type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" name="phone" required>
 							<button class="button offer-form__button" type="submit">Оставить заявку!</button>
 						</form>
 						<small class="form-small">*Минимальный заказ 500шт</small>
@@ -412,7 +412,7 @@
 							Получите индивидуальное предложение
 							<span>на производство и поставку изделий</span>
 							<label for="phone" class="popup-form_label">Введите ваш номер телефона</label>
-							<input type="tel" class=" popup-form_input" placeholder="+48XXXXXXXXX" name="phone" required>
+							<input type="tel" class=" popup-form_input" placeholder="+7(XXX)XXX-XX-XX" name="phone" required>
 							<button class="button popup-form_btn">
 								Оставте заявку!
 							</button>

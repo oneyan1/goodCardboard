@@ -22,7 +22,7 @@
 						8 (937) 363-30-00
 				</div>
 				<div class="contacts-block__cta contacts-block__text">
-					<button class="button">
+					<button class="button btnModalActive">
 						Заказать звонок
 					</button>
 				</div>
@@ -47,11 +47,19 @@
 		<script>
 
 			$(document).ready(function(){
-						$('.header-contacts_button').on("click", function(){
-								$('.overlay').show();
+						$('.btnModalActive').on("click", function(){
+								$('.overlay').fadeIn("slow");
 						}); 
 						$('.popup-close').on("click", function(){
-							$('.overlay').hide();
+							$('.overlay').fadeOut("slow");
+						});
+						$('.main-form').on("submit", function(event){
+							event.preventDefault();
+							$(".popup-form").html("<h1>Спасибо, скоро мы с вами свяжемся!</h1>");
+						});
+						$('.form-section').on("submit", function(event){
+							event.preventDefault();
+							$('.offer-form').html("<h1>Спасибо, скоро мы с вами свяжемся!</h1>");
 						});
 			});
 		</script>

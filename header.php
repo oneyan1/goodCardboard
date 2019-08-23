@@ -16,7 +16,7 @@
 							 8 (937) 363-30-00
 							</div>
 							</div>
-							<button onclick="yaCounter47996714.reachGoal('topBtn'); return true;" class="button header-contacts_button">
+							<button onclick="yaCounter47996714.reachGoal('topBtn'); return true;" class="button header-contacts_button btnModalActive">
 								<img src="img/telephone-handset.png" alt="icon">
 								<span class="hidden-mobile">Заказать звонок</span>
 							</button>
