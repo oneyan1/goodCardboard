@@ -627,6 +627,32 @@ button:focus {
   .numbers-block_text {
     font-size: 14px;
   }
+
+  .overlay .popup{
+    width: auto;
+  }
+
+  .overlay .popup-close{
+    font-size: 75px;
+    right: 15px;
+    top: -15px;
+  }
+
+  .overlay .popup-form_header{
+    font-weight: 700;
+    font-size: 25px;
+
+  }
+  .overlay .popup-form_header span{
+    font-weight: 700;
+    font-size: 25px;
+    font-size: 15px;
+    display: block;
+  }
+  .overlay .popup-form_input{
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -762,6 +788,39 @@ button:focus {
 
   .contacts-block {
     position: relative;
+  }
+
+  .overlay .popup{
+    width: 100%;
+    top: 15%;
+  }
+
+  .overlay .popup-title{
+    font-size: 15px;
+  }
+  .overlay .popup-close{
+    font-size: 50px;
+    right: 15px;
+    top: 0;
+  }
+  .overlay .popup-form{
+    padding: 20px;
+  }
+
+  .overlay .popup-form_header{
+    font-weight: 700;
+    font-size: 18px;
+
+  }
+  .overlay .popup-form_header span{
+    font-weight: 700;
+    font-size: 15px;
+    display: block;
+  }
+  .overlay .popup-form_input{
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: auto;
   }
 }
 
